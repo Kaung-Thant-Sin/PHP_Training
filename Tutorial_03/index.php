@@ -16,7 +16,7 @@
             $userinput_date = new DateTime($submit_date);
             $current_date = new DateTime();
 
-            //checking if the user input future date to avoid calculating wrong values
+            //checking if the user input  future date to avoid calculating wrong values
             if ($userinput_date > $current_date) 
             {
                 echo "<p class='error'>Sorry, the day you select is in future .. please choose your birthday</p>";
