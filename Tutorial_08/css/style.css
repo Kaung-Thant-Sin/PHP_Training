@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.div {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ttl {
+  border-bottom: none;
+  border: 1px solid #333;
+  padding: 10px;
+  /* border: 1px solid #f2f2f2; */
+  background-color: #f2f2f2;
+  margin-bottom: 0px;
+}
+
+table {
+  border-top: none;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+th {
+  padding: 8px 20px;
+  color: #333;
+  font-size: 18px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:first-child {
+  background-color: #fff;
+  color: #333;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.cmn-btn {
+  padding: 5px 15px;
+  border: 1px solid #a49f9f;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cmn-btn:hover {
+  background-color: rgba(88, 81, 7, 0.5);
+}
+
+.view{
+  background-color: skyblue;
+}
+
+.edit {
+  background-color: darkgreen;
+}
+
+.delete {
+  background-color: darkred;
+}
+
+.add {
+  background-color: royalblue;
+}
+
+.warning {
+  width: 30%;
+  margin: 250px 450px;
+  padding: 20px;
+  border: 1px dashed #5e4b4b;
+  background-color: #f79a1f;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.success {
+  width: 30%;
+  margin: 250px 450px;
+  padding: 20px 50px;
+  border: 1px dashed #5e4b4b;
+  background-color: #ffe4c4;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form {
+  border-top: none;
+  width: 63%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 0.2px solid#5e4b4b;
+  background-color: #fff;
+  /* border-radius: 5px; */
+}
+
+label {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 0.1px solid #839cbc;
+  border-radius: 5px;
+}
+
+.update-btn {
+  padding: 4px 8px;
+  border: 1px solid #5e4b4b;
+  background-color: #b2bcc9;
+  border-radius: 5px;
+}
+
+.create-post{
+  border-bottom: none;
+  width: 63%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 0.2px solid#5e4b4b;
+  margin-top: 38px;
+}
